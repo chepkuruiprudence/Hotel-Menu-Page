@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+  background-color: rgb(209, 216, 224);
+  padding: 1rem 4rem;
+  font-size: 1.6rem;
+}
+  
+
+.header_items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.viewBtn{
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: red;
+  transition: all 0.3s ease box-shadow 0.3s ease;
+  border-radius: 8px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.viewBtn:hover{
+  background-color: blueviolet;
+  transform: translate(10px) scale(1.03);
+}
+
+.items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;list-style: none;
+  margin: 1rem;
+  gap: 3rem;
+  font-size: 2rem;
+  text-combine-upright: black ;
+  font-weight: 500;
+  transition: all 0.3s ease box-shadow 0.3s ease;
+}
+
+.items:hover{
+  transform: translate(10px) scale(1.03);
+}
+
+.container{
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.listItem{
+  background-color: white;
+  border: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 35rem;
+  border-radius: 10px;
+}
+
+.listItem:hover{
+  background-color: blanchedalmond;
+  transform: translate(10px) scale(1.03);
+}
+
+.listImg{
+  height: 25rem;
+}
+
+.listImg img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover; 
+}
+
+.listDetails{
+  padding: 1rem;
+}
+
+.listDetails p{
+  font-size: 1.5rem;
+}
+
+.listTitle{
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.listPricesCart{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listPrices{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.listCost{
+  color: grey;
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.listCostDiscount{
+  font-size: 2.4rem;
+}
+
+.listBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  border: none;
+  background-color: maroon;
+  border-radius: 4px;
+  transition: all 0.2s;
+  padding: 0.8rem;
+}
+
+
+
+ .all{
+   color: red;
+} 
