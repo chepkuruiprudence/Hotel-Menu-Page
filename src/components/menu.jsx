@@ -1,4 +1,4 @@
-import { FaShoppingCart } from "react-icons/fa";
+// import { FaShoppingCart } from "react-icons/fa";
 import menudata from "../data/menudata";
 import { MdStarRate } from "react-icons/md";
 
