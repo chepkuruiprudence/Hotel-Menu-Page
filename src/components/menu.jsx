@@ -1,5 +1,6 @@
 import { FaShoppingCart } from "react-icons/fa";
 import menudata from "../data/menudata";
+import { MdStarRate } from "react-icons/md";
 
 function Menu({ image, title, cost, discount, description }) {
   return (
@@ -7,6 +8,7 @@ function Menu({ image, title, cost, discount, description }) {
     <div className="listItem">
       <div className="listImg">
         <img src={image} />
+        <button className="rateBtn"><MdStarRate /></button>
       </div>
       <div className="listDetails">
         <h3 className="listTitle">{title}</h3>
@@ -25,10 +27,10 @@ function Menu({ image, title, cost, discount, description }) {
               ${cost}
             </span>
           </h4>
-          <button className="listBtn">
+          {/* <button className="listBtn">
             {" "}
             <FaShoppingCart />
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
