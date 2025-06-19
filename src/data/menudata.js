@@ -6,6 +6,7 @@ export const menudata = [
    cost: "40.00",
    image: "./double veg burgar.jpg",
    discount: "0",
+   rate: "5",
  },
  {
    id: 2,
@@ -14,6 +15,7 @@ export const menudata = [
    cost: "17.56",
    image: "./chicken burgar.jpg",
    discount: "3",
+   rate: "4",
  },
  {
    id: 3,
@@ -22,6 +24,7 @@ export const menudata = [
    cost: "24.50",
    image: "./Pineapple pizza.jpg",
    discount: "5",
+   rate: "3",
  },
 {
    id: 4,
@@ -30,6 +33,7 @@ export const menudata = [
    cost: "11.02",
    image: "./Pineapple soup.jpg",
    discount: "50",
+   rate: "4",
  },
  {
    id: 5,
@@ -38,6 +42,7 @@ export const menudata = [
    cost: "50",
    image: "./Green Salad.jpg",
    discount: "10",
+   rate: "5",
  },
  {
    id: 6,
@@ -46,6 +51,7 @@ export const menudata = [
    cost: "12.20",
    image: "./Honey bread.jpg",
    discount: "0",
+   rate: "3",
  },
  {
    id: 7,
@@ -54,6 +60,7 @@ export const menudata = [
    cost: "15.00",
    image: "./Momos.jpg",
    discount: "7",
+   rate: "4",
  },
  {
    id: 8,
@@ -62,6 +69,7 @@ export const menudata = [
    cost:"50.00",
    image: "./aloo tiki burgar.jpg",
    discount: "0",
+   rate: "2",
  },
  {
    id: 9,
@@ -70,6 +78,7 @@ export const menudata = [
    cost: "45.00",
    image: "./Green Salad.jpg",
    discount: "10",
+   rate: "4",
  },
 ];
 

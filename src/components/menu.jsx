@@ -2,13 +2,13 @@
 import menudata from "../data/menudata";
 import { MdStarRate } from "react-icons/md";
 
-function Menu({ image, title, cost, discount, description }) {
+function Menu({ image, title, cost, discount, description, rate }) {
   return (
     <div className="container">
     <div className="listItem">
       <div className="listImg">
         <img src={image} />
-        <button className="rateBtn"><MdStarRate /></button>
+        <button className="rateBtn"><MdStarRate />{rate}</button>
       </div>
       <div className="listDetails">
         <h3 className="listTitle">{title}</h3>
@@ -50,6 +50,7 @@ function MenuList() {
             cost={menu.cost}
             discount={menu.discount}
             description = {menu.description}
+            rate={menu.rate}
           />
         );
       })}
